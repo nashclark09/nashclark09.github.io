@@ -1,0 +1,28 @@
+body {
+    background-color: #1f1d27;
+}
+
+.header-main {
+    width: 100%;
+    height: 60px;
+    background-color: #1c1a24;
+    border-radius: 2px;
+    border-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main-logo {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+}
+
+.header-main-logo img {
+    height: 30px;
+}
+
+.header-main-nav {
+    width: 120px;
+    height: 100%;
+}
