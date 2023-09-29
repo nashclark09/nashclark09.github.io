@@ -1,10 +1,3 @@
-# Error Documents
-ErrorDocument 400 /htdocs/errors/400.html
-ErrorDocument 401 /htdocs/errors/401.html
-ErrorDocument 403 /htdocs/errors/403.html
-ErrorDocument 404 /htdocs/errors/404.html
-ErrorDocument 503 /htdocs/errors/503.html
-
 # Remove .html Extension From URL
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
