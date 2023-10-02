@@ -1,5 +1,8 @@
 body {
     background-color: #1f1d27;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: default;
+    height: 1000px;
 }
 
 a {
@@ -47,7 +50,6 @@ a {
 
 .header-main-nav ul li a {
     padding: 0 40px;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 120px;
     font-size: 20px;
     color: white;
@@ -66,11 +68,9 @@ a {
 /* MAIN PAGE */
 
 .welcome {
-    background: transparent;
-    justify-content: center;
-    height: 1000px;
-}
-
-.welcome-top {
-    position: relative;
+    background-color: #121117;
+    height: 450px;
+    width: 900px;
+    text-decoration: none;
+    color: white;
 }
