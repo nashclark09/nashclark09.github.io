@@ -62,3 +62,15 @@ a {
     color: pink;
     transform: scale(1.1);
 }
+
+/* MAIN PAGE */
+
+.welcome {
+    background: transparent;
+    justify-content: center;
+    height: 1000px;
+}
+
+.welcome-top {
+    position: relative;
+}
