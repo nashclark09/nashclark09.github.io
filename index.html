@@ -22,5 +22,20 @@
                 </ul>
             </nav>
         </header>
+
+        <script>
+            window.onscroll = function() {scrollFunction()};
+
+            var navbar = document.getElementByClassName("header-main");
+            var sticky = navbar.offsetTop;
+
+            function scrollFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
     </body>
 </html>
