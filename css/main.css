@@ -11,6 +11,10 @@ body {
     background-size: cover;
 }
 
+a:hover {
+    color: pink;
+}
+
 /* HEADER */
 
 .header {
@@ -38,10 +42,9 @@ body {
 }
 
 .header-logo {
-    font-size: 2rem;
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
+    width: fit-content;
+    height: 100%;
+    display: flex;
 }
 
 .header-navbar a {
@@ -104,7 +107,7 @@ body {
     }
 
     #header-check:checked~.header-navbar {
-        height: 17.7rem;
+        height: 14.16rem;
     }
 
     .header-navbar a {
