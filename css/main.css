@@ -42,14 +42,8 @@ a:hover {
 }
 
 .header-logo {
-    width: 20%;
-    height: 20%;
-}
-
-.header-logo img {
-    width: fit-content;
-    height: 100%;
-    display: flex;
+    max-width: 50px;
+    height: auto;
 }
 
 .header-navbar a {
