@@ -41,6 +41,11 @@ a:hover {
     z-index: -1;
 }
 
+.header-logo {
+    width: 20%;
+    height: 20%;
+}
+
 .header-logo img {
     width: fit-content;
     height: 100%;
