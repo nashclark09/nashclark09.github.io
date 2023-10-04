@@ -43,6 +43,7 @@ a:hover {
 
 .header-logo {
     max-width: 50px;
+    width: auto;
     height: auto;
 }
 
