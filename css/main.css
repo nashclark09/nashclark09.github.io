@@ -44,7 +44,6 @@ a:hover {
 .header-logo {
     width: 15px;
     height: 15px;
-    display: flex;
 }
 
 .header-navbar a {
