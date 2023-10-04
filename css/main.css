@@ -42,7 +42,7 @@ a:hover {
 }
 
 .header-logo {
-    width: fit-content;
+    width: 100px;
     height: 100%;
     display: flex;
 }
