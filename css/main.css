@@ -11,6 +11,15 @@ body {
     background-size: cover;
 }
 
+a {
+    transition: all .2s ease-in-out;
+}
+
+a:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
 /* HEADER */
 
 .header {
@@ -112,5 +121,14 @@ body {
         font-size: 1.1rem;
         margin: 1.5rem 0;
         text-align: center;
+        opacity: 0;
+        transform: translateY(-50px);
+        transition: .3 ease;
+    }
+
+    #header-check::checked~.header-navbar a {
+        transform: translateY(0);
+        transition-delay: calc(.15s * var(--i));
+        opacity: 1;
     }
 }
