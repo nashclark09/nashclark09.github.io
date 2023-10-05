@@ -128,11 +128,13 @@ a:hover {
         opacity: 0;
         transform: translateY(-50px);
         transition: .3s ease;
+        transition: color .2s ease-in-out;
     }
 
     #header-check:checked~.header-navbar a {
         transform: translateY(0);
         transition-delay: calc(.15s * var(--i));
         opacity: 1;
+        color: pink;
     }
 }
