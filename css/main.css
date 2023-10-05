@@ -51,6 +51,7 @@ a:hover {
 }
 
 .header-navbar a {
+    display: inline-block;
     font-size: 1.5rem;
     color: white;
     text-decoration: none;
