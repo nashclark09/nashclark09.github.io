@@ -42,7 +42,8 @@ a:hover {
 }
 
 .header-logo {
-    max-height: 150px;
+    max-height: 125px;
+    height: 125px;
     width: auto;
 }
 
