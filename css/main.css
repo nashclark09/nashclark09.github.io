@@ -42,9 +42,9 @@ a:hover {
 }
 
 .header-logo {
-    max-height: 125px;
-    height: 125px;
-    width: auto;
+    max-height: 100px;
+    width: fit-content;
+    height: auto;
 }
 
 .header-navbar a {
