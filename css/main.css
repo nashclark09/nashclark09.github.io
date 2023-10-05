@@ -135,6 +135,9 @@ a:hover {
         transform: translateY(0);
         transition-delay: calc(.15s * var(--i));
         opacity: 1;
+    }
+
+    .header-navbar a:hover {
         color: pink;
     }
 }
