@@ -140,4 +140,16 @@ a:hover {
     .header-navbar a:hover {
         color: pink;
     }
+
+    /* FOOTER */
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        z-index: 100;
+    }
 }
